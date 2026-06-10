@@ -1,0 +1,29 @@
+name: Autograde Exercises
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r .devcontainer/requirements.txt
+          pip install -r tests/requirements.txt
+
+      - name: Register Jupyter kernel
+        run: python -m ipykernel install --user --name python3 --display-name "Python 3"
+
+      - name: Run autograding tests
+        run: pytest tests/ -v
