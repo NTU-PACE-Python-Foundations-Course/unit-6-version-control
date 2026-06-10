@@ -1,0 +1,16 @@
+{
+  "id": "unit-6",
+  "slug": "unit-6-version-control",
+  "title": "Version Control & Professional Practices",
+  "description": "Git fundamentals, PEP 8, and using the skills from Units 1-5 together.",
+  "learning_objectives": [
+    "Use git add, commit, push, and pull in a real workflow",
+    "Apply PEP 8 conventions to existing code",
+    "Describe what pandas does and how it extends what you have learned"
+  ],
+  "original_video": "V5 (continued) \u2014 Professional Python: Errors, Files & the Path Forward",
+  "curated_videos": [
+    "freeCodeCamp: Git and GitHub for Beginners"
+  ],
+  "codespace_repo": "unit-6-version-control"
+}
