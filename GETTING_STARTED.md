@@ -1,6 +1,6 @@
 # Getting Started — Python Fundamentals
 
-> **Python Fundamentals** | NTU Academy for Professional and Continuing Education
+> **Python Fundamentals**
 
 This guide walks you through everything you need to do the exercises for this
 course — **even if you've never used GitHub, VS Code, or Jupyter notebooks
