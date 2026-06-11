@@ -1,6 +1,6 @@
 # Unit 6: Version Control & Professional Practices
 
-> **Python Fundamentals** | NTU Academy for Professional and Continuing Education
+> **Python Fundamentals**
 
 Git fundamentals, PEP 8, and using the skills from Units 1-5 together.
 
@@ -29,5 +29,4 @@ By the end of this unit you will be able to:
 
 ## Course
 
-Part of the [Python Fundamentals](https://github.com/python-fundamentals-course/course-overview) course —
-NTU Academy for Professional and Continuing Education.
+Part of the [Python Fundamentals](https://github.com/python-fundamentals-course/course-overview) course.
