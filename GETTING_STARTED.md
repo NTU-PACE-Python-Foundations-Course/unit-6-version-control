@@ -26,7 +26,7 @@ Each unit of the course (Unit 1, Unit 2, ...) lives in its own GitHub
 repository. To start working on a unit:
 
 1. Open the unit's repository page on GitHub (your trainer will give you the
-   link, e.g. `github.com/NTU-PACE-Python-Foundations-Course/unit-1-foundations`).
+   link, e.g. `github.com/python-fundamentals-course/unit-1-foundations`).
 2. Click the green **`<> Code`** button.
 3. Select the **Codespaces** tab.
 4. Click **Create codespace on main**.
