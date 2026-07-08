@@ -20,16 +20,34 @@ doesn't look right.
 
 ---
 
-## 2. Opening a unit in Codespaces
+## 2. Getting your own copy of a unit
 
 Each unit of the course (Unit 1, Unit 2, ...) lives in its own GitHub
-repository. To start working on a unit:
+repository — but that repo is a **template**, not something you work in
+directly. Every learner needs their own private copy so your work (and your
+autograder results) are yours alone. To start a unit:
 
 1. Open the unit's repository page on GitHub (your trainer will give you the
    link, e.g. `github.com/python-fundamentals-course/unit-1-foundations`).
-2. Click the green **`<> Code`** button.
-3. Select the **Codespaces** tab.
-4. Click **Create codespace on main**.
+2. Click the green **"Use this template" → "Create a new repository"**
+   button (this is different from the **`<> Code`** button — don't clone or
+   fork it, use the template button).
+3. Choose your own GitHub account as the owner, give it a name (the default
+   is fine), and — importantly — select **Private** in the visibility
+   picker before creating it.
+4. Follow **[PRIVATE_REPO_SETUP.md](PRIVATE_REPO_SETUP.md)** to finish
+   securing your new repo and add the grading bot as a Read-only
+   collaborator. This is what lets your trainer track your progress without
+   ever being able to change your code.
+5. Submit your new repo's URL as described in `PRIVATE_REPO_SETUP.md` so it
+   gets added to the class roster.
+
+Once that's done, open **your own repo** (not the template) and start a
+Codespace on it:
+
+1. On your repo's page, click the green **`<> Code`** button.
+2. Select the **Codespaces** tab.
+3. Click **Create codespace on main**.
 
 GitHub will now build your personal coding environment in the cloud. **The
 first time you do this for a unit, it can take 1–3 minutes** — you'll see a
