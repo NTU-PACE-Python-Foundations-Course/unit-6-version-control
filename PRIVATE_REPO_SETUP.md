@@ -19,5 +19,5 @@
 5. That's it on your end. You'll get a confirmation once the invitation is
    accepted (usually within a day) — you don't need to do anything else.
 
-6. Submit your repo URL through [the usual form / roster PR] so the
+6. Submit your repo URL through the Learning Management System so the
    instructor knows which repo belongs to you.
