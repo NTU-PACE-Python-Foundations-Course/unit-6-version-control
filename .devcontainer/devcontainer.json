@@ -17,7 +17,19 @@
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "editor.formatOnSave": true,
         "editor.rulers": [79],
-        "jupyter.askForKernelRestart": false
+        "jupyter.askForKernelRestart": false,
+        "notebook.compactView": false,
+        "notebook.cellFocusIndicator": "border",
+        "notebook.lineNumbers": "on",
+        "notebook.showCellStatusBar": "visible",
+        "notebook.outputFontSize": 14,
+        "notebook.markup.fontSize": 15,
+        "workbench.colorCustomizations": {
+          "notebook.cellBorderColor": "#37A0F4",
+          "notebook.focusedCellBorder": "#FE9000",
+          "notebook.inactiveFocusedCellBorder": "#37A0F4",
+          "notebook.outputContainerBackgroundColor": "#37A0F41A"
+        }
       }
     }
   },
