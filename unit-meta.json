@@ -8,9 +8,21 @@
     "Apply PEP 8 conventions to existing code",
     "Describe what pandas does and how it extends what you have learned"
   ],
-  "original_video": "V5 (continued) \u2014 Professional Python: Errors, Files & the Path Forward",
-  "curated_videos": [
-    "freeCodeCamp: Git and GitHub for Beginners"
+  "codespace_repo": "unit-6-version-control",
+  "videos": [
+    {
+      "name": "The Path Forward & Course Close",
+      "type": "vimeo",
+      "url": "https://vimeo.com/1216757703",
+      "duration_min": 4
+    }
   ],
-  "codespace_repo": "unit-6-version-control"
+  "curated_videos": [
+    {
+      "name": "C7 \u2014 Git & GitHub for Beginners",
+      "type": "youtube",
+      "url": "https://youtu.be/RGOj5yH7evk",
+      "duration_min": 60
+    }
+  ]
 }
